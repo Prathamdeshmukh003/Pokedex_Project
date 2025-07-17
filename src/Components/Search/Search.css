@@ -1,0 +1,21 @@
+.search-wrapper{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#pokemon-name-search{
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    background-color: beige;
+    padding: 10px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: cyan;
+    padding: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+}
