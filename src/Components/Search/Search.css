@@ -20,6 +20,9 @@ input::placeholder{
     font-weight: bold;
     color:black;
 }
+input[type="text"]{
+    font-size: 1.25rem;
+}
 .search:hover{
     padding: 1.5rem;
     font-size: 1rem;
