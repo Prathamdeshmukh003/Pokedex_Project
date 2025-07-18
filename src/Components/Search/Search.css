@@ -11,7 +11,7 @@
 input::placeholder{
     font-size: 1.25rem;
 }
-button{
+.search{
     border: none;
     border-radius: 5px;
     background-color: cyan;
@@ -19,4 +19,9 @@ button{
     margin-left: 5px;
     font-weight: bold;
     color:black;
+}
+.search:hover{
+    padding: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
 }

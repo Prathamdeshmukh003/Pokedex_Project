@@ -14,10 +14,31 @@
 }
 .controls{
     margin-top: 2rem;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .controls>button{
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
+}
+.prev{
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.prev:hover{
+    box-shadow: 1px 5px 5px;
+}
+.next{
+    background-color: greenyellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.next:hover{
+    box-shadow: 1px 5px 5px;
 }

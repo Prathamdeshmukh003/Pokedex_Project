@@ -8,7 +8,7 @@ function Search(){
                 type="text"
                 placeholder="Pokemon name...."
             />
-            <button>Search</button>
+            <button className='search'>Search</button>
         </div>
     )
 }
